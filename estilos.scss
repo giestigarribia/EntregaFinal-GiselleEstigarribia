@@ -6,47 +6,45 @@
     font-size:30px;
 }
 
-// Variables
 $primary-color: #5FBF45;
 $success-color: #28a745;
 
-// Estilos
 .header {
 
-.navbar-light{
-    background-color: #08080D;
-}
-
-.container {
-    background-color: #08080D;
-}
-
-.navbar {
-    transition: background-color 0.3s ease;
-}
-
-.navbar-toggler-icon {
-    background-color: #28a745;
-    border-radius: 20%;
-}
-
-.navbar-brand {
-    color: $primary-color;
-    font-weight: bold;
-
-    &:hover {
-        color: darken($primary-color, 20%);
+    .navbar-light{
+        background-color: #08080D;
     }
-}
 
-.navbar-nav .nav-link {
-    color: $primary-color;
-    transition: color 0.3s ease;
-    font-size: 18px;
+    .container {
+        background-color: #08080D;
+    }
+
+    .navbar {
+        transition: background-color 0.3s ease;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #28a745;
+        border-radius: 20%;
+    }
+
+    .navbar-brand {
+        color: $primary-color;
+        font-weight: bold;
 
         &:hover {
             color: darken($primary-color, 20%);
         }
+    }
+
+    .navbar-nav .nav-link {
+        color: $primary-color;
+        transition: color 0.3s ease;
+        font-size: 18px;
+
+            &:hover {
+                color: darken($primary-color, 20%);
+            }
     }
 }
 
@@ -155,12 +153,5 @@ p{
     .col-md-6 {
         flex: 0 0 50%;
         max-width: 50%;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .col-md-6 {
-        flex: 0 0 100%;
-        max-width: 100%;
     }
 }
