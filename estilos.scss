@@ -85,6 +85,8 @@ $success-color: #28a745;
     background-color: #08080D;
     padding: 20px 0;
     text-align: center;
+    color: white;
+    position: center;
 
 .btn-transition {
     transition: background-color 0.3s ease;
@@ -143,15 +145,23 @@ p{
     }
 
     header{
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         background-color: #08080D;
         border: none;
+        height: 10vh;
     }
 
     main{
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 70vh;
+    }
+
+    .main{
+        background-size: 40vh;
+        background-repeat: no-repeat;
+        background-color: #08080D;
     }
 
     .col-xs-6 {
@@ -161,13 +171,14 @@ p{
 
     .footer {
         justify-content: center;
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: 20vh;
     }
 
     p{
         font-size: 8px;
-        padding: 32px;
+        padding: 16px;
     }
 
     .moto {
