@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 30px;
 }
@@ -112,31 +111,71 @@
 }
 
 p {
-  font-size: 30px;
+  font-size: 25px;
   padding: 100px;
 }
 
 @media only screen and (max-width: 320px) {
+  * {
+    font-size: 10px;
+  }
   .col-md-6 {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+  .footer .row {
+    justify-content: center;
+  }
+  p {
+    font-size: 8px;
+    padding: 32px;
   }
 }
 @media only screen and (min-width: 321px) and (max-width: 480px) {
+  * {
+    font-size: 10px;
+  }
   .col-md-6 {
     flex: 0 0 50%;
     max-width: 50%;
+  }
+  .footer .row {
+    justify-content: center;
+  }
+  p {
+    font-size: 8px;
+    padding: 32px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
+  * {
+    font-size: 14px;
+  }
   .col-md-6 {
     flex: 0 0 50%;
     max-width: 50%;
   }
+  .footer .row {
+    justify-content: center;
+  }
+  p {
+    font-size: 12px;
+    padding: 48px;
+  }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  * {
+    font-size: 18px;
+  }
   .col-md-6 {
-    flex: 0 0 100%;
-    max-width: 100%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .footer .row {
+    justify-content: center;
+  }
+  p {
+    font-size: 16px;
+    padding: 64px;
   }
 }/*# sourceMappingURL=estilos.css.map */
