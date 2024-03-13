@@ -70,7 +70,6 @@
   padding: 20px 0;
   text-align: center;
   color: white;
-  position: center;
 }
 .footer .btn-transition {
   transition: background-color 0.3s ease;
@@ -161,16 +160,40 @@ p {
   * {
     font-size: 10px;
   }
+  header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #08080D;
+    border: none;
+    height: 10vh;
+  }
+  main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 70vh;
+  }
+  .main {
+    background-size: 40vh;
+    background-repeat: no-repeat;
+    background-color: #08080D;
+  }
   .col-xs-6 {
     flex: 0 0 50%;
     max-width: 50%;
   }
-  .footer .row {
+  .footer {
     justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 20vh;
   }
   p {
     font-size: 8px;
     padding: 32px;
+  }
+  .moto {
+    width: 100px;
+    height: 50px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
