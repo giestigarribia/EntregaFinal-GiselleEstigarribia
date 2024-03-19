@@ -3,7 +3,7 @@
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:30px;
-    background-color: #08080D;
+    background-color: black;
 }
 
 $primary-color: #5FBF45;
@@ -12,11 +12,11 @@ $success-color: #28a745;
 .header {
 
     .navbar-light{
-        background-color: #08080D;
+        background-color: black;
     }
 
     .container {
-        background-color: #08080D;
+        background-color: black;
     }
 
     .navbar {
@@ -46,6 +46,8 @@ $success-color: #28a745;
                 color: darken($primary-color, 20%);
             }
     }
+
+    border-style: none;
 }
 
 .main {
@@ -53,12 +55,13 @@ $success-color: #28a745;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #08080D;
+    background-color: black;
     color: white;
-    padding: 50px 0;
+    padding: 40px 0;
     text-align: center;
     position: relative;
     overflow: hidden;
+    border-style: none;
 
     .container {
         background-color: rgba(0, 0, 0, 0);
@@ -75,18 +78,20 @@ $success-color: #28a745;
 }
 
 .main2 {
-    background-color: #08080D;
+    background-color: black;
     background-position: center;
     color: white;
     padding: 50px;
     text-align: center;
+    border-style: none;
 }
 
 .footer {
-    background-color: #08080D;
+    background-color: black;
     padding: 20px 0;
     text-align: center;
     color: white;
+    border-style: none;
 
 .btn-transition {
     transition: background-color 0.3s ease;
@@ -103,6 +108,7 @@ $success-color: #28a745;
     background-image: url(Multimedia/motoNegra.jpg);
     background-size: contain;
     background-repeat: no-repeat;
+    border-style: none;
     position: bottom;
     top: calc(50% - 50px);
     right: -150px;
@@ -116,6 +122,88 @@ h1 {
 
 h2 {
     font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+
+    .circleArrow::before {
+        content: "";
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+        margin-right: 15px;
+        background-image: url(Multimedia/arrow.webp);
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .calendar::before {
+        content: "";
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+        margin-right: 15px;
+        background-image: url(Multimedia/Calendar.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .reloj::before {
+        content: "";
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+        margin-right: 15px;
+        background-image: url(Multimedia/watch.webp);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: white;
+    }
+}
+
+p.moto::before {
+    content: "";
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 15px;
+    background-image: url(Multimedia/Moto.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: none;
+}
+
+::-webkit-scrollbar{
+    background-color: #00bb2d;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px white;
+}
+
+::-moz-scrollbar{
+    background-color: #00bb2d;
+}
+
+::-moz-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px white;
+}
+
+::-ms-scrollbar{
+    background-color: #00bb2d;
+}
+
+::-ms-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px white;
 }
 
 @keyframes moveMoto {
@@ -145,6 +233,9 @@ h2 {
 p{
     font-size: 25px;
     padding: 100px;
+    color:#5FBF45;
+    background-color: black;
+    border-style: none;
 }
 
 @media only screen and (max-width: 320px) {
@@ -183,7 +274,7 @@ p{
             justify-content: center;
             padding-top: 20px;
             padding-bottom: 20px;
-            background-color: #08080D;
+            background-color: black;
             text-align: center;
         }
     }
@@ -202,6 +293,11 @@ p{
         font-size: 8px;
     }
 
+    li{
+        font-size: 8px;
+        color:#5FBF45;
+    }
+
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
@@ -217,7 +313,7 @@ p{
     header{
         padding-top: 10px;
         padding-bottom: 10px;
-        background-color: #08080D;
+        background-color: black;
         border: none;
     }
 
@@ -250,6 +346,11 @@ p{
         height: 25px;
     }
 
+    li{
+        font-size: 8px;
+        color:#5FBF45;
+    }
+
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -261,7 +362,7 @@ p{
     .header{
         padding-top: 10px;
         padding-bottom: 10px;
-        background-color: #08080D;
+        background-color: black;
         border: none;
     }
 
@@ -282,6 +383,11 @@ p{
         padding: 48px;
     }
 
+    li{
+        font-size: 12px;
+        color:#5FBF45;
+    }
+
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
@@ -293,7 +399,7 @@ p{
     .header{
         padding-top: 10px;
         padding-bottom: 10px;
-        background-color: #08080D;
+        background-color: black;
         border: none;
     }
 
@@ -313,6 +419,11 @@ p{
         padding: 64px;
     }
 
+    li{
+        font-size: 16px;
+        color:#5FBF45;
+    }
+
 }
 
 @media only screen and (min-width: 1025px) {
@@ -324,7 +435,7 @@ p{
     .header{
         padding-top: 10px;
         padding-bottom: 10px;
-        background-color: #08080D;
+        background-color: black;
         border: none;
     }
 
@@ -353,5 +464,10 @@ p{
 
     h2{
         font-size: 28px;
+    }
+
+    li{
+        font-size: 22px;
+        color:#5FBF45;
     }
 }
