@@ -57,7 +57,7 @@ $success-color: #28a745;
     background-repeat: no-repeat;
     background-color: black;
     color: white;
-    padding: 30px 0;
+    padding: 40px 0;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -66,7 +66,7 @@ $success-color: #28a745;
     .container {
         background-color: rgba(0, 0, 0, 0);
         background-size: cover;
-        padding: 15px;
+        padding: 20px;
         border-radius: 10px;
     }
 
@@ -81,14 +81,14 @@ $success-color: #28a745;
     background-color: black;
     background-position: center;
     color: white;
-    padding: 45px;
+    padding: 50px;
     text-align: center;
     border-style: none;
 }
 
 .footer {
     background-color: black;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
     color: white;
     border-style: none;
@@ -365,7 +365,7 @@ p{
         background-color: black;
         border: none;
     }
-
+    
     .col-sm-6 {
         flex: 0 0 50%;
         max-width: 50%;
