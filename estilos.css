@@ -241,8 +241,8 @@ p {
   }
   footer .footer {
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: black;
     text-align: center;
   }
@@ -271,13 +271,16 @@ p {
   }
   header {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     background-color: black;
     border: none;
   }
   main {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+    height: 550px;
+    overflow: auto;
+    scrollbar-width: none;
   }
   .col-xs-6 {
     flex: 0 0 50%;
@@ -285,8 +288,8 @@ p {
   }
   .footer {
     justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   .footer .row {
     justify-content: center;
@@ -314,9 +317,17 @@ p {
     background-color: black;
     border: none;
   }
+  main {
+    height: 530px;
+    overflow: auto;
+    scrollbar-width: none;
+  }
   .col-sm-6 {
     flex: 0 0 50%;
     max-width: 50%;
+  }
+  .footer {
+    padding-top: 5px;
   }
   .footer .row {
     justify-content: center;
@@ -324,7 +335,7 @@ p {
   }
   p {
     font-size: 12px;
-    padding: 48px;
+    padding: 10px;
   }
   li {
     font-size: 12px;
@@ -336,8 +347,8 @@ p {
     font-size: 18px;
   }
   .header {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: black;
     border: none;
   }
@@ -350,7 +361,7 @@ p {
   }
   p {
     font-size: 16px;
-    padding: 64px;
+    padding: 50px;
   }
   li {
     font-size: 16px;
@@ -388,4 +399,6 @@ p {
     font-size: 22px;
     color: #5FBF45;
   }
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+/*# sourceMappingURL=estilos.css.map */

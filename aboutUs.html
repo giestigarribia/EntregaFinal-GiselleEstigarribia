@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mensajería Urbana</title>
+  <title>Sobre Nosotros</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
-
   <header class="header">
     <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
+      <div class="container" data-aos="zoom-in">
         <a class="navbar-brand" href="index.html">Multimoto</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -21,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="aboutUs.html">Sobre Nosotros</a>
+              <a class="nav-link" data-aos="flip-up" href="aboutUs.html">Sobre Nosotros</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="mensajeriaUrbana.html">Mensajería Urbana</a>
@@ -37,25 +37,45 @@
       </div>
     </nav>
     </div>
-    <h1>Mensajería Urbana</h1>
+    <h1 data-aos="flip-right">Sobre Nosotros</h1>
   </header>
 
-  <main class="main">
-    <p>Envíos en CABA, GBA y alrededores a demanda. Posibilidad de agenda mensual. 
-      Envíos en moto con mantenimiento de cadena de frío (medicamentos, muestras)
-    </p>
-    <p>En caso de querer realizar envíos fuera de la zona determinada, podes contactarnos y ver la posibilidad de realización con nuestro equipo de logística.</p>
+  <main class="main2">
     <div class="container">
-      <img class="card-img" src="Multimedia/gba.jpg" alt="Imagen 2">
-      <div class="jumbotron">
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-12 mb-4">
+          <div class="card" data-aos="flip-down">
+            <img class="card-img" src="Multimedia/paquete.jpg" alt="Imagen 1">
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-12 mb-4">
+          <div class="card" data-aos="flip-down">
+            <img class="card-img" src="Multimedia/motoCiudad.jpg" alt="Imagen 2">
+          </div>
+        </div>
+      </div>
+      <p data-aos="flip-down">Somos una empresa que desde hace más de 30 años se dedica a la mensajería en moto, brindando seguridad e integridad a los clientes. Hacemos envíos por CABA y GBA. Somos un equipo de especialistas en transporte urgente, puerta a puerta.</p>
+      <p data-aos="flip-down"> Nuestro equipo está conformado por profesionales con amplia experiencia en el rubro mensajería en moto. Brindamos distintas soluciones de envios: A demanda por disponibilidad en el día, envíos programados y asignación de recurso diario. Realizamos envios de todo tipo para empresas y particulares: bancarios, institucionales, entrega de documentación y traslado de objetos.</p>
+      <p data-aos="flip-down">Con un servicio 100% flexible y atención personalizada, realizamos el transporte urgente de documentación, paquetería, medicamentos (con o sin cadena de frío) y cargas de pequeño volumen. Para evitar cualquier tipo de sorpresa usted conoce de antemano el valor de nuestro servicio.</p>
+      <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-12 mb-4">
+          <div class="card" data-aos="flip-down">
+            <img class="card-img" src="Multimedia/motoReloj.jpg" alt="Imagen 3">
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-12 mb-4">
+          <div class="card" data-aos="flip-down">
+            <img class="card-img" src="Multimedia/mercadoEnvios.jpg" alt="Imagen 4">
+          </div>
+        </div>
       </div>
     </div>
   </main>
 
   <footer class="footer">
-    <h2>CONTACTENOS</h2>
+    <h2 data-aos="zoom-out-left">CONTACTENOS</h2>
     <br>
-    <div class="container">
+    <div class="container" data-aos="zoom-out-left">
       <div class="row">
         <div class="col-xs-6 col-sm-6 col-md-6">
           <a href="https://wa.me/+5491140279561" class="btn btn-success" target="_blank"><i class="fa-brands fa-square-whatsapp"></i><br> Multimoto +54-9-11-4027-9561</a>
@@ -71,6 +91,10 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>
