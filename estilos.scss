@@ -298,6 +298,24 @@ p{
         color:#5FBF45;
     }
 
+    ul {
+    
+        .circleArrow::before {
+            width: 10px;
+            height: 10px;
+        }
+    
+        .calendar::before {
+            width: 10px;
+            height: 10px;
+        }
+    
+        .reloj::before {
+            width: 10px;
+            height: 10px;
+        }
+    }
+
 }
 
 @media only screen and (min-width: 321px) and (max-width: 480px) {
@@ -311,14 +329,14 @@ p{
     }
 
     header{
-        padding-top: 10px;
+        padding-top: 5px;
         padding-bottom: 5px;
         background-color: black;
         border: none;
     }
 
     main{
-        padding-top: 20px;
+        padding-top: 5px;
         padding-bottom: 5px;
     }
 
@@ -338,7 +356,7 @@ p{
 
     p{
         font-size: 8px;
-        padding: 32px;
+        padding: 5px;
     }
 
     .moto {
@@ -351,6 +369,24 @@ p{
         color:#5FBF45;
     }
 
+    ul {
+    
+        .circleArrow::before {
+            width: 20px;
+            height: 20px;
+        }
+    
+        .calendar::before {
+            width: 20px;
+            height: 20px;
+        }
+    
+        .reloj::before {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
 }
 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -360,13 +396,13 @@ p{
     }
 
     .header{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         background-color: black;
         border: none;
     }
-    
-    .col-sm-6 {
+
+    .col-xs-6 {
         flex: 0 0 50%;
         max-width: 50%;
     }

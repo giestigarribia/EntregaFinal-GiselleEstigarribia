@@ -261,6 +261,18 @@ p {
     font-size: 8px;
     color: #5FBF45;
   }
+  ul .circleArrow::before {
+    width: 10px;
+    height: 10px;
+  }
+  ul .calendar::before {
+    width: 10px;
+    height: 10px;
+  }
+  ul .reloj::before {
+    width: 10px;
+    height: 10px;
+  }
 }
 @media only screen and (min-width: 321px) and (max-width: 480px) {
   * {
@@ -270,13 +282,13 @@ p {
     font-size: 8px !important;
   }
   header {
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 5px;
     background-color: black;
     border: none;
   }
   main {
-    padding-top: 20px;
+    padding-top: 5px;
     padding-bottom: 5px;
   }
   .col-xs-6 {
@@ -293,7 +305,7 @@ p {
   }
   p {
     font-size: 8px;
-    padding: 32px;
+    padding: 5px;
   }
   .moto {
     width: 50px;
@@ -303,18 +315,30 @@ p {
     font-size: 8px;
     color: #5FBF45;
   }
+  ul .circleArrow::before {
+    width: 20px;
+    height: 20px;
+  }
+  ul .calendar::before {
+    width: 20px;
+    height: 20px;
+  }
+  ul .reloj::before {
+    width: 20px;
+    height: 20px;
+  }
 }
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   * {
     font-size: 14px;
   }
   .header {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: black;
     border: none;
   }
-  .col-sm-6 {
+  .col-xs-6 {
     flex: 0 0 50%;
     max-width: 50%;
   }
