@@ -320,9 +320,6 @@ p{
     main{
         padding-top: 20px;
         padding-bottom: 5px;
-        height: 550px;
-        overflow: auto;
-        scrollbar-width: none;
     }
 
     .col-xs-6 {
@@ -367,12 +364,6 @@ p{
         padding-bottom: 10px;
         background-color: black;
         border: none;
-    }
-
-    main{
-        height: 530px;
-        overflow: auto;
-        scrollbar-width: none;
     }
 
     .col-sm-6 {
